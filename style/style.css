@@ -65,7 +65,7 @@ nav{
 .title-article{
     font-size: 30px;
     color: #fff;
-    padding: 350px 600px 10px 80px;
+    padding: 350px 10px 80px;
     filter: brightness(100);
 }
 
@@ -88,13 +88,19 @@ h1{
     margin-bottom: 0;
 }
 
+#imgleft{
+    border-radius: 20px;
+    height: 100px;
+    width: 100px;
+}
+
 .sidebar{
-    width: 15%;
+    width: 20%;
     height: 540px;
 }
 
 .maincontent{
-    width: calc(70% - 40px);
+    width: calc(60% - 40px);
     height: 540px;
     margin-left: 20px;
     margin-right: 20px;
