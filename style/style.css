@@ -29,7 +29,7 @@ body{
     color: #878787;
 }
 
-.dark-border:not(.title-article){
+.dark-border:not(article){
     filter: brightness(80%);
     border-radius: 20px;
 }
