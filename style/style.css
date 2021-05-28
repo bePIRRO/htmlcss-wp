@@ -7,6 +7,7 @@
 
 body{
     margin: 0 10%;
+    font-family: sans-serif,'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana;
 }
 
 /* utilities */
@@ -24,12 +25,21 @@ body{
     float: left;
 }
 
+.grey{
+    color: #878787;
+}
+
 /* header */
 
 li{
-    display: inline;
+    display: inline-block;
     list-style: none;
 }
+
+.logo{
+    width: ;
+}
+
 /* main */
 
 #primo {
@@ -37,9 +47,18 @@ li{
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: center;
-    height: 500px;
+    height: 650px;
     border-radius: 20px;
+    filter: brightness(80%);
 }
+
+.title-article{
+    font-size: 30px;
+    color: #fff;
+    padding: 350px 600px 10px 80px;
+    filter: brightness(100);
+}
+
 
 .blu{
     background-color: #abcfe7;
