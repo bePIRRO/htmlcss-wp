@@ -5,6 +5,10 @@
     padding: 0;
 }
 
+body{
+    margin: 0 10%;
+}
+
 /* utilities */
 .clearfix::after{
     content: "";
@@ -22,21 +26,23 @@
 
 /* header */
 header{
-    background-color: #e579e6;
     height: 140px;
-    /* margin-top: 25px; */
-    
+    margin-top: 0;
 }
 
-.blu{
-    background-color: #abcfe7;
+li{
+    display: inline;
+    list-style: none;
 }
-
 /* main */
 
 #primo {
     background-color: #e1d67a;
     height: 500px;
+}
+
+.blu{
+    background-color: #abcfe7;
 }
 
 #secondo{
