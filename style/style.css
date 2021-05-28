@@ -88,22 +88,23 @@ h1{
     margin-bottom: 0;
 }
 
-#imgleft{
-    border-radius: 20px;
-    height: 100px;
-    width: 100px;
-}
-
 .sidebar{
     width: 20%;
-    height: 540px;
+    height: 200px;
 }
 
 .maincontent{
     width: calc(60% - 40px);
-    height: 540px;
+    height: 200px;
     margin-left: 20px;
     margin-right: 20px;
+}
+
+.red{
+    background-color: red;
+}
+.down{
+    float: inline-start;
 }
 
 /* footer */
