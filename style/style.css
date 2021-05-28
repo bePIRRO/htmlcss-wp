@@ -34,10 +34,16 @@ body{
 li{
     display: inline-block;
     list-style: none;
+    padding-right: 1%;
 }
 
 .logo{
-    width: ;
+    width: 210px ;
+}
+
+nav{
+    padding-top:3%;
+    font-size: 22px;
 }
 
 /* main */
@@ -48,6 +54,7 @@ li{
     background-size: cover;
     background-position-y: center;
     height: 650px;
+    margin-top: 50px;
     border-radius: 20px;
     filter: brightness(80%);
 }
