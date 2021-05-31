@@ -11,6 +11,7 @@ body{
     font-family: sans-serif,'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana;
 }
 
+
 /* utilities */
 .clearfix::after{
     content: "";
@@ -35,8 +36,8 @@ body{
     border-radius: 20px;
 }
 
-/* header */
 
+/* header */
 li{
     display: inline-block;
     list-style: none;
@@ -52,8 +53,8 @@ nav{
     font-size: 22px;
 }
 
-/* main */
 
+/* main */
 #primo {
     background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../img/banner.jpg);
     background-repeat: no-repeat;
@@ -92,15 +93,14 @@ nav{
 
 .sidebar{
     width: 20%;
-    height: 300px;
 }
 
 .maincontent{
     width: calc(60% - 40px);
-    height: 300px;
     margin-left: 20px;
     margin-right: 20px;
 }
+
 
 /* images */
 #img1{
@@ -108,6 +108,7 @@ nav{
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x:center;
+    height: 300px;
 }
 
 #img2{
@@ -115,17 +116,16 @@ nav{
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: center;
+    height: 300px;
 }
 #img3{
     background-image: url(../img/img-3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x:center;
+    height: 300px;
 }
 
-.red{
-    background-color: red;
-}
 
 /* footer */
 .foot{
