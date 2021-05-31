@@ -7,6 +7,7 @@
 
 body{
     margin: 0 10%;
+    max-width: 80%;
     font-family: sans-serif,'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana;
 }
 
@@ -29,7 +30,7 @@ body{
     color: #878787;
 }
 
-.dark-border:not(article){
+.dark-border:not(#primo){
     filter: brightness(80%);
     border-radius: 20px;
 }
@@ -54,12 +55,13 @@ nav{
 /* main */
 
 #primo {
-    background-image: url(../img/banner.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../img/banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: center;
     height: 650px;
     margin-top: 50px;
+    border-radius: 20px;
 }
 
 .title-article{
@@ -74,8 +76,13 @@ nav{
     font-size: 22px;
 }
 
-h1{
-    font-size: 50px;
+.leader{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.subtitle{
+    font-weight: 100;
 }
 
 #bar{
